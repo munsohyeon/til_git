@@ -27,7 +27,9 @@
 - 설정화면 닫고, VSCode 재실행 추천
 
 ### 3.2. VSCode 에서 Git 옵션 설정하기
+
 <!-- 터미널창 우측 상단 bash로 변경 -->
+
 - 터미널 실행 : `ctrl + 백틱` cncjs
 - git 버전 확인
 
@@ -126,6 +128,7 @@ git commit
 - 커밋 메세지 : 무엇을 했는지 짧은 내용
 
 #### 4.5.1. 커밋타입
+
 - `[feat]` : 새로운 기능 추가
 - `[fix]` : 버그 수정
 - `[docs]` : 문서 수정(README.md)
@@ -164,6 +167,7 @@ git log
 ```
 
 - 간략하게 보기
+
 ```bash
 git log --oneline
 ```
@@ -173,10 +177,13 @@ git log --oneline
 ```bash
 git show 커밋아이디
 ```
+
 <!-- 태그가 안 쳐질때 Q 누르기 -->
 
 #### 4.6.1. 각 항목 관련 사항 이해하기
+
 <!-- 깃 아이디가 아니라 커밋 아이디(터미널에 있는 노란색 아이디) -->
+
 - commit : 고유한 커밋 번호(아이디)
 - Author : 작성자
 - Date : 날짜
@@ -218,6 +225,7 @@ git branch -v
 #### 4.7.5. 브랜치 합치기
 
 -브랜치를 하나로 합쳐주기
+
 - 주의 사항 : `main 브랜치에서 test 브랜치 합쳐줄 겁니다.`
 
 ```bash
@@ -257,14 +265,15 @@ git merge 합쳐주고자하는 브랜치명
 
 - `remote` 는 원격(인터넷)을 말합니다.
 - `add` 는 추가하라
-- `origin` 는 
-- http 주소를 간략하게 별칭을 준 것입니다. 
+- `origin` 는
+- http 주소를 간략하게 별칭을 준 것입니다.
   (단어는 마음대로 해도 된다.)
 - `원격 이름`을 말함.
 
 ```bash
 git remote add origin https://github.com/munsohyeon/til_git.git
 ```
+
 ### 4.2. 원격 저장소 목록 보기
 
 ```bash
@@ -273,9 +282,9 @@ git remote -v
 
 ### 4.3. 원격 저장소에 소스 등록하기
 
+- 습관적으로 하셨으면 좋은 작업 (ctrl + s, 즉, 저장 후)
+
 ```bash
 git add .
 git commit -m "[docs]:최초등록"
 ```
-
-
