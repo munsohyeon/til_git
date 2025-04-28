@@ -99,4 +99,19 @@ git status
 git add README.md
 ```
 
+- 모든 파일 및 폴더 저장하기 (recommen)
+
+```bash
+git add .
+```
+
+### 4.4. 수정 내역 메모 남기기
+
+```bash
+git commit -m"한줄메모"
+```
+
+```bash
+git commit
+```
 # GitHub
