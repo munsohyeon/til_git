@@ -231,3 +231,51 @@ git merge 합쳐주고자하는 브랜치명
 - `login 브랜치`에서 나는 로그인 기능을 구현했다.
 
 # GitHub
+
+## 1. GitHub 회원가입하기
+
+- http://github.com
+
+## 2. GitHub 프로젝트(Repository) 생성하기
+
+- 만약 til_git 프로젝트 생성해낸다면 GitHub 에도 동일하게 생성하자.
+- public 으로 셋팅 : 외부로 소스 공개
+- description 은 작성해 주자 : 프로젝트 설명
+
+## 3. GitHub 인증하기
+
+### 3.1. 무조건 GitHub에 로그인 된 상태로 시도하셔야 합니다.
+
+### 3.2. `윈도우 > 자격 증명 관리자 > Windows 자격 증명` 에서 GitHub 확인
+
+- 새로 생성하시길 권장합니다.
+- PC 정리 또는 자리 이동시 반드시 삭제하셔야 합니다.(all ways)
+
+## 4. GitHub 프로젝트 연결하기
+
+### 4.1. 원격 저장소 주소 지정하기
+
+- `remote` 는 원격(인터넷)을 말합니다.
+- `add` 는 추가하라
+- `origin` 는 
+- http 주소를 간략하게 별칭을 준 것입니다. 
+  (단어는 마음대로 해도 된다.)
+- `원격 이름`을 말함.
+
+```bash
+git remote add origin https://github.com/munsohyeon/til_git.git
+```
+### 4.2. 원격 저장소 목록 보기
+
+```bash
+git remote -v
+```
+
+### 4.3. 원격 저장소에 소스 등록하기
+
+```bash
+git add .
+git commit -m "[docs]:최초등록"
+```
+
+
