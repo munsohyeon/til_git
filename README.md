@@ -343,3 +343,22 @@ git push origin main
 - PC에 환경 설정 진행(VSCode, Git)
 - /stdent/`test 폴더` 생성
 - GitHub 사이트에 프로젝트를  `clone` 한다.
+
+### 5.2. clone
+
+```bash
+git clone https://github.com/munsohyeon/til_git.git .
+```
+
+### 5.3. clone 이후의 작업
+
+```bash
+git status
+git branch -v
+git branch 브랜치명
+git switch 브랜치명
+작업진행
+git add .
+git commit -m "작업내용"
+git push origin 브랜치명
+```
