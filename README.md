@@ -338,11 +338,12 @@ git push origin main
 - 코드 소스 기준이 `ssh`면 인증을 다시 처리하는 과정 필요.
 
 ### 5.1. 실습
+
 - 서울로 출장을 갔다. (PC 없이)
 - 서울 사무소에 PC를 지급 받았다.
 - PC에 환경 설정 진행(VSCode, Git)
 - /stdent/`test 폴더` 생성
-- GitHub 사이트에 프로젝트를  `clone` 한다.
+- GitHub 사이트에 프로젝트를 `clone` 한다.
 
 ### 5.2. clone
 
@@ -363,16 +364,4 @@ git commit -m "작업내용"
 git push origin 브랜치명
 ```
 
-/*
-git fetch --all
-
-// 내 로컬 브랜치 목록
-git branch -v
-
-// 내 깃허브 리모트 브랜치 목록
-git branch -r
-
-// 로컬 및 깃허브 모든 브랜치 목록
-git branch -a
-
-*/
+서울에서 작업완료 함.
